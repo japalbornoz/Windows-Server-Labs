@@ -7,11 +7,17 @@ This project documents the setup of a Windows Server 2022 Domain Controller in a
 ## 🧱 Lab Architecture
 
 - **Virtualization Platform**: VMware Workstation Pro
+- **Operating Systems**: Windows Server 2022, Windows 11 Enterprise 
 - **Network Type**: Host-only (VMnet1)
-- **Subnet**: 192.168.0.0/24
+- **Network Address**: 192.168.0.0/24
 - **Domain Name**: `sigmanetwork.local`
 
+
+
+
 ![Domain Promotion Wizard](./SIGMAVM.png)
+
+
 ## 🗂️ Network Partitioning
 
 - **Server IP Range**: 192.168.0.240 – 192.168.0.254  
@@ -22,7 +28,7 @@ This project documents the setup of a Windows Server 2022 Domain Controller in a
 ## 🔧 Setup Steps
 
 1. Set up the five Virtual Machines in VMWare Workstation Pro
-2. Installed Windows Server 2022 on SIGMA-DC1(SEva DeskExp), SIGMA-SVR1(DaEva DeskExp), SIGMA-CORE(SEva)
+2. Installed Windows Server 2022 on SIGMA-DC1, SIGMA-SVR1, SIGMA-CORE
 3. Installed Windows 11 (Enterprise) on ITSUPP and USER 
 4. SIGMA-DC1 configuration, static IP: `192.168.0.254`, no gateway, DNS = self
 5. Installed AD DS and DNS roles via Server Manager
