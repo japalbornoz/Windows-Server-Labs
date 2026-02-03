@@ -9,13 +9,17 @@ This project documents the setup of a Windows Server 2022 Domain Controller in a
 - **Virtualization Platform**: VMware Workstation Pro
 - **Network Type**: Host-only (VMnet1), manual IP configuration
 - **Subnet**: 192.168.1.0/24
-- **Domain Name**: lab.local
+- **Domain Name**: bluenetwork.local
 
-| VM Name   | Role               | IP Address       |
-|-----------|--------------------|------------------|
-| RTS-DC1   | Domain Controller  | 192.168.1.250    |
-| RTS-SVR1  | Member Server      | 192.168.1.251    |
-| RTS-CORE  | Client / Utility   | 192.168.1.252    |
+| VM Name   | Role               | Network Configuration          |
+|-----------|--------------------|--------------------------------|
+| BLUE-DC1   | Domain Controller  | IP Address: 192.168.1.250      |
+|           |                    | Subnet Mask: 255.255.255.0     |
+|           |                    | Default Gateway: N/A           |
+|           |                    | Preferred DNS: 192.168.1.250   |
+|           |                    | Alternate DNS: N/A             |
+| RTS-SVR1  | Member Server      | 192.168.1.251                  |
+| RTS-CORE  | Client / Utility   | 192.168.1.252                  |
 
 ---
 
