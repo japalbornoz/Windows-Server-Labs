@@ -7,9 +7,9 @@ This project documents the setup of a Windows Server 2022 Domain Controller in a
 ## 🧱 Lab Architecture
 
 - **Virtualization Platform**: VMware Workstation Pro
-- **Network Type**: Host-only (VMnet1), manual IP configuration
-- **Network**: 192.168.1.0/24
-- **Domain Name**: sigmanetwork.local
+- **Network Type**: Host-only (VMnet1)
+- **Subnet**: 192.168.0.0/24
+- **Domain Name**: `sigmanetwork.local`
 
 ![Domain Promotion Wizard](./SIGMAVM.png)
 ![Domain Promotion Wizard](./SIGMAVM1.png)
@@ -29,7 +29,7 @@ This project documents the setup of a Windows Server 2022 Domain Controller in a
 ## 📸 Screenshots
 - [x] Server Manager Role Installation  
 - [x] Domain Promotion Wizard  
-- [x] Successful domain join (SVR1, CORE)  
+- [x] Successful domain join (SVR1, CORE, IT, USER)  
 - [x] DNS zone configuration
 
 ---
