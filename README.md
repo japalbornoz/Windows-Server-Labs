@@ -6,7 +6,7 @@ Hands-on Active Directory labs built in VMware Workstation Pro. Includes domain 
 This repository documents my hands-on Active Directory labs built in **VMware Workstation Pro**.  
 Each project simulates real-world enterprise scenarios, from domain setup to Group Policy enforcement and multi-site replication.
 ![Domain Promotion Wizard](./image01.png)
-![Domain Promotion Wizard](https://github.com/japalbornoz/Windows-Server-Labs/blob/main/project-01-domain-setup/domain-promotion.png?raw=true)
+![Domain Promotion Wizard](https://github.com/japalbornoz/Windows-Server-Labs/blob/09ae39ce4544115138858aeca5667c06c9f301a6/image01.png)
 ---
 
 ## 📂 Projects
