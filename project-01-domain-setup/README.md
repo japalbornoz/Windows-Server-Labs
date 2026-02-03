@@ -31,7 +31,9 @@ This project documents the setup of a Windows Server 2022 Domain Controller in a
 ---
 
 ## 📸 Screenshots
-
+![image alt](https://github.com/japalbornoz/Windows-Server-Labs/blob/9eef76f5f0c671ca791751d6379cf68f42c50b7a/Screenshot%202026-02-03%20090632.png)
+![Domain Promotion Wizard](./image01.png)
+![Domain Promotion Wizard](./domain-promotion.png)
 - [x] Server Manager Role Installation  
 - [x] Domain Promotion Wizard  
 - [x] Successful domain join (SRV1, CORE)  
