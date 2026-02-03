@@ -1,4 +1,4 @@
-# Project 001: Active Directory Domain Setup
+# Project 01: Active Directory Domain Setup
 
 This project documents the setup of a Windows Server 2022 Domain Controller in a fully isolated lab environment using VMware Workstation Pro.
 
