@@ -11,21 +11,13 @@ This project documents the setup of a Windows Server 2022 Domain Controller in a
 - **Subnet**: 192.168.1.0/24
 - **Domain Name**: bluenetwork.local
 
-| VM Name   | Role               | Network Configuration          |
-|-----------|--------------------|--------------------------------|
-| BLUE-DC1   | Domain Controller  | IP Address: 192.168.1.250      |
-|           |                    | Subnet Mask: 255.255.255.0     |
-|           |                    | Default Gateway: N/A           |
-|           |                    | Preferred DNS: 192.168.1.250   |
-|           |                    | Alternate DNS: N/A             |
-| RTS-SVR1  | Member Server      | 192.168.1.251                  |
-| RTS-CORE  | Client / Utility   | 192.168.1.252                  |
+![Domain Promotion Wizard](./VMs.png)
 
 ---
 
 ## 🔧 Setup Steps
 
-1. Installed Windows Server 2022 on RTS-DC1
+1. Installed Windows Server 2022 on BLUE-DC1
 2. Configured static IP: `192.168.1.250`, no gateway, DNS = self
 3. Installed AD DS and DNS roles via Server Manager
 4. Promoted RTS-DC1 to a domain controller (`lab.local`)
