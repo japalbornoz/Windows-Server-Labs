@@ -12,7 +12,7 @@ This project documents the setup of a Windows Server 2022 Domain Controller in a
 - **Domain Name**: sigmanetwork.local
 
 ![Domain Promotion Wizard](./SIGMAVM.png)
-
+![Domain Promotion Wizard](./SIGMAVM1.png)
 ---
 
 ## 🔧 Setup Steps
