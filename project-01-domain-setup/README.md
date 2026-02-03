@@ -18,7 +18,7 @@ This project documents the setup of a Windows Server 2022 Domain Controller in a
 ## 🔧 Setup Steps
 
 1. Installed Windows Server 2022 on SIGMA-DC1
-2. Configured static IP: `192.168.1.250`, no gateway, DNS = self
+2. Configured static IP: `192.168.1.254`, No Gateway, DNS = self
 3. Installed AD DS and DNS roles via Server Manager
 4. Promoted SIGMA-DC1 to a domain controller (`sigmanetwork.local`)
 5. Verified domain functionality and DNS resolution
@@ -29,7 +29,7 @@ This project documents the setup of a Windows Server 2022 Domain Controller in a
 ## 📸 Screenshots
 - [x] Server Manager Role Installation  
 - [x] Domain Promotion Wizard  
-- [x] Successful domain join (SRV1, CORE)  
+- [x] Successful domain join (SVR1, CORE)  
 - [x] DNS zone configuration
 
 ---
