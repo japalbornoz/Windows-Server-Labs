@@ -45,7 +45,7 @@ D. Virtual Machines SIGMA-IT and SIGMA-USER
       <img src="Server%20Manager%20Role%20Installation/installation%20part1.png" width="600">
       <img src="Server%20Manager%20Role%20Installation/installation%20part2.png" width="600">
 
-- [x] **Domain Promotion Wizard**
+- [x] **Domain Promotion Wizard**                
       <img src="Domain%20Promotion%20Wizard/SIGMA-DC1%20network%20config.png" width="600">
       <img src="Domain%20Promotion%20Wizard/SIGMA-DC1%20as%20DC.png" width="300"><img src="Domain%20Promotion%20Wizard/SIGMA-DC1%20as%20DC%202.png" width="400">
 
