@@ -25,31 +25,24 @@ A. VMWare Workstation Pro: Set up the five Virtual Machines
 
 B. Virtual Machine 1: SIGMA-DC1 Setup 
 -  SIGMA-DC1 network configuration, static IP: `192.168.0.254`, no gateway, DNS = self
--  Installed AD DS, DNS, DHCP, Group Policy Management via Server Manager roles and features
+-  Installed AD DS, DNS, DHCP, and Group Policy Management via Server Manager roles and features
 -  Promoted SIGMA-DC1 to a domain controller (`sigmanetwork.local`)
 
-B. Virtual Machine 2: SIGMA-SVR Setup
+C. Virtual Machines 2 & 3: SIGMA-SVR Setup, SIGMA-CORE Setup
 -  SIGMA-SVR network configuration, static IP: `192.168.0.253`, no gateway, DNS: `192.168.0.254`
--  Joined the domain (sigmanetwork)
-  
-C. Virtual Machine 3: SIGMA-CORE Setup
--  SIGMA-SVR network configuration, static IP: `192.168.0.252`, no gateway, DNS: `192.168.0.254`
+-  SIGMA-CORE network configuration, static IP: `192.168.0.252`, no gateway, DNS: `192.168.0.254`
 -  Joined the domain (sigmanetwork)
 
-D. Virtual Machine 4: SIGMA-ITSUPP Setup
--  SIGMA-SVR network configuration, static IP: `192.168.0.241`, no gateway, DNS: `192.168.0.254`
--  Joined the domain (sigmanetwork)
-
-E. Virtual Machine 5: SIGMA-USER Setup
--  SIGMA-SVR network configuration, static IP: `192.168.0.1`, no gateway, DNS: `192.168.0.254`
+D. Virtual Machines 4 & 5: SIGMA-IT Setup, SIGMA-USER Setup
+-  SIGMA-IT network configuration, static IP: `192.168.0.241`, no gateway, DNS: `192.168.0.254`
+-  SIGMA-USER network configuration, static IP: `192.168.0.1`, no gateway, DNS: `192.168.0.254`
 -  Joined the domain (sigmanetwork)  
-
-F. Verified domain functionality and DNS resolution
 
 ---
 
 ## 📸 Screenshots
-- [x] Server Manager Role Installation  
+- [x] Server Manager Role Installation
+- [ ] 
 - [x] Domain Promotion Wizard  
 - [x] Successful domain join (SVR1, CORE, ITSUPP, USER)  
 - [x] DNS zone configuration
