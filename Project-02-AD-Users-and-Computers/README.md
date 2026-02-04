@@ -1,4 +1,5 @@
 # Project 02: Active Directory Users and Computers Testing (SIGMA Lab)
+*User and computer account management, OU structure, and permissions testing.*
 
 This project demonstrates how to create, manage, and test user and computer accounts in Active Directory. It focuses on identity management, group membership, and file access permissions within a domain environment.
 
