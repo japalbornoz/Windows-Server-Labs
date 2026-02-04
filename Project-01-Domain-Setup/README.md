@@ -56,7 +56,7 @@ D. Virtual Machines SIGMA-IT and SIGMA-USER
       <img src="Domain%20Join/CORE.png" width="600">
       <img src="Domain%20Join/IT.png" width="300"><img src="Domain%20Join/USER.png" width="294">
       
-- [x] **DNS zone configuration**
+
       
  
 ---
