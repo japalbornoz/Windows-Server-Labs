@@ -17,12 +17,7 @@ This project documents the setup of a Windows Server 2022 Domain Controller in a
 
 ![Domain Promotion Wizard](./5VMs.drawio.png)
 
-
-## 🗂️ Network Partitioning
-
-- **Server IP Range**: 192.168.0.240 – 192.168.0.254  
-- **IT IP Range**: 192.168.0.220 – 192.168.0.239  
-- **User IP Range**: 192.168.0.1 – 192.168.0.219
+![Domain Promotion Wizard](./NPartitioning.png)
 ---
 
 ## 🔧 Setup Steps
