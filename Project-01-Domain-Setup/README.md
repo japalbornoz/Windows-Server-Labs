@@ -9,11 +9,6 @@ This project documents the setup of a Windows Server 2022 Domain Controller in a
 - **Virtualization Platform**: VMware Workstation Pro
 - **Operating Systems**: Windows Server 2022, Windows 11 Enterprise 
 - **Network Type**: Host-only (VMnet1)
-- **Network Address**: 192.168.0.0/24
-- **Domain Name**: `sigmanetwork.local`
-
-
-
 
 ![Domain Promotion Wizard](./5VMs.drawio.png)
 
