@@ -19,14 +19,32 @@ This project documents the setup of a Windows Server 2022 Domain Controller in a
 
 ## 🔧 Setup Steps
 
-1. Set up the five Virtual Machines in VMWare Workstation Pro
-2. Installed Windows Server 2022 on SIGMA-DC1, SIGMA-SVR1, SIGMA-CORE
-3. Installed Windows 11 (Enterprise) on ITSUPP and USER 
-4. SIGMA-DC1 configuration, static IP: `192.168.0.254`, no gateway, DNS = self
-5. Installed AD DS and DNS roles via Server Manager
-6. Promoted SIGMA-DC1 to a domain controller (`sigmanetwork.local`)
-7. Verified domain functionality and DNS resolution
-8. Joined SIGMA-SVR1, SIGMA-CORE, SIGMA-ITSUPP, and SIGMA-USER to the domain
+A. VMWare Workstation Pro: Set up the five Virtual Machines
+-  Installed Windows Server 2022 on SIGMA-DC1, SIGMA-SVR1, SIGMA-CORE
+-  Installed Windows 11 (Enterprise) on ITSUPP and USER
+
+B. Virtual Machine 1: SIGMA-DC1 Setup 
+-  SIGMA-DC1 network configuration, static IP: `192.168.0.254`, no gateway, DNS = self
+-  Installed AD DS, DNS, DHCP, Group Policy Management via Server Manager roles and features
+-  Promoted SIGMA-DC1 to a domain controller (`sigmanetwork.local`)
+
+B. Virtual Machine 2: SIGMA-SVR Setup
+-  SIGMA-SVR network configuration, static IP: `192.168.0.253`, no gateway, DNS: `192.168.0.254`
+-  Joined the domain (sigmanetwork)
+  
+C. Virtual Machine 3: SIGMA-CORE Setup
+-  SIGMA-SVR network configuration, static IP: `192.168.0.252`, no gateway, DNS: `192.168.0.254`
+-  Joined the domain (sigmanetwork)
+
+D. Virtual Machine 4: SIGMA-ITSUPP Setup
+-  SIGMA-SVR network configuration, static IP: `192.168.0.241`, no gateway, DNS: `192.168.0.254`
+-  Joined the domain (sigmanetwork)
+
+E. Virtual Machine 5: SIGMA-USER Setup
+-  SIGMA-SVR network configuration, static IP: `192.168.0.1`, no gateway, DNS: `192.168.0.254`
+-  Joined the domain (sigmanetwork)  
+
+F. Verified domain functionality and DNS resolution
 
 ---
 
