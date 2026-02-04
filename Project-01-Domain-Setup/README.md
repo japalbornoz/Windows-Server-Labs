@@ -23,17 +23,17 @@ A. VMWare Workstation Pro: Set up the five Virtual Machines
 -  Installed Windows Server 2022 on SIGMA-DC1, SIGMA-SVR1, SIGMA-CORE
 -  Installed Windows 11 (Enterprise) on ITSUPP and USER
 
-B. Virtual Machine SIGMA-DC1 Setup 
+B. Virtual Machine SIGMA-DC1
 -  SIGMA-DC1 network configuration, static IP: `192.168.0.254`, no gateway, DNS = self
 -  Installed AD DS, DNS, DHCP, and Group Policy Management via Server Manager roles and features
 -  Promoted SIGMA-DC1 to a domain controller (`sigmanetwork.local`)
 
-C. Virtual Machines SIGMA-SVR and SIGMA-CORE Setup
+C. Virtual Machines SIGMA-SVR and SIGMA-CORE
 -  SIGMA-SVR network configuration, static IP: `192.168.0.253`, no gateway, DNS: `192.168.0.254`
 -  SIGMA-CORE network configuration, static IP: `192.168.0.252`, no gateway, DNS: `192.168.0.254`
 -  Joined the domain (sigmanetwork)
 
-D. Virtual Machines SIGMA-IT and SIGMA-USER Setup
+D. Virtual Machines SIGMA-IT and SIGMA-USER
 -  SIGMA-IT network configuration, static IP: `192.168.0.241`, no gateway, DNS: `192.168.0.254`
 -  SIGMA-USER network configuration, static IP: `192.168.0.1`, no gateway, DNS: `192.168.0.254`
 -  Joined the domain (sigmanetwork)  
