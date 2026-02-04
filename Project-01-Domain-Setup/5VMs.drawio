@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.7">
+  <diagram name="Page-1" id="6V7u9xuyZFBzrLKAWOql">
+    <mxGraphModel dx="1042" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qeQ_9sxyChv7fqBwwFQL-1" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=13;fontStyle=1" value="Network Address: 192.168.0.0/24" vertex="1">
+          <mxGeometry height="700" width="540" x="130" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="qeQ_9sxyChv7fqBwwFQL-2" parent="qeQ_9sxyChv7fqBwwFQL-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="30" width="540" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qeQ_9sxyChv7fqBwwFQL-3" parent="qeQ_9sxyChv7fqBwwFQL-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;fontStyle=1" value="Virtual Machine" vertex="1">
+          <mxGeometry height="30" width="114" as="geometry">
+            <mxRectangle height="30" width="114" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qeQ_9sxyChv7fqBwwFQL-4" parent="qeQ_9sxyChv7fqBwwFQL-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;fontStyle=1" value="Role" vertex="1">
+          <mxGeometry height="30" width="216" x="114" as="geometry">
+            <mxRectangle height="30" width="216" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qeQ_9sxyChv7fqBwwFQL-5" parent="qeQ_9sxyChv7fqBwwFQL-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" value="&lt;b&gt;Network Configuration&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="210" x="330" as="geometry">
+            <mxRectangle height="30" width="210" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qeQ_9sxyChv7fqBwwFQL-6" parent="qeQ_9sxyChv7fqBwwFQL-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="126" width="540" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qeQ_9sxyChv7fqBwwFQL-7" parent="qeQ_9sxyChv7fqBwwFQL-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" value="SIGMA-DC1" vertex="1">
+          <mxGeometry height="126" width="114" as="geometry">
+            <mxRectangle height="126" width="114" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qeQ_9sxyChv7fqBwwFQL-8" parent="qeQ_9sxyChv7fqBwwFQL-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" value="Domain Controller&lt;div&gt;Domain Name: sigmanetwork&lt;/div&gt;" vertex="1">
+          <mxGeometry height="126" width="216" x="114" as="geometry">
+            <mxRectangle height="126" width="216" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qeQ_9sxyChv7fqBwwFQL-9" parent="qeQ_9sxyChv7fqBwwFQL-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;align=left;" value="&amp;nbsp; &amp;nbsp; IP Address: 192.168.0.254&lt;div&gt;&amp;nbsp; &amp;nbsp; Subnet Mask: 255.255.255.0&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Default Gateway: N/A&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Preferred DNS: 192.168.1.254&lt;/div&gt;" vertex="1">
+          <mxGeometry height="126" width="210" x="330" as="geometry">
+            <mxRectangle height="126" width="210" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qeQ_9sxyChv7fqBwwFQL-10" parent="qeQ_9sxyChv7fqBwwFQL-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="127" width="540" y="186" as="geometry" />
+        </mxCell>
+        <mxCell id="qeQ_9sxyChv7fqBwwFQL-11" parent="qeQ_9sxyChv7fqBwwFQL-10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" value="SIGMA-SVR1" vertex="1">
+          <mxGeometry height="127" width="114" as="geometry">
+            <mxRectangle height="127" width="114" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qeQ_9sxyChv7fqBwwFQL-12" parent="qeQ_9sxyChv7fqBwwFQL-10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" value="Member Server 1" vertex="1">
+          <mxGeometry height="127" width="216" x="114" as="geometry">
+            <mxRectangle height="127" width="216" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qeQ_9sxyChv7fqBwwFQL-13" parent="qeQ_9sxyChv7fqBwwFQL-10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;align=left;" value="&amp;nbsp; &amp;nbsp; IP Address: 192.168.0.253&lt;div&gt;&amp;nbsp; &amp;nbsp; Subnet Mask: 255.255.255.0&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Default Gateway: N/A&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Preferred DNS: 192.168.1.254&lt;/div&gt;" vertex="1">
+          <mxGeometry height="127" width="210" x="330" as="geometry">
+            <mxRectangle height="127" width="210" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qeQ_9sxyChv7fqBwwFQL-55" parent="qeQ_9sxyChv7fqBwwFQL-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" vertex="1">
+          <mxGeometry height="129" width="540" y="313" as="geometry" />
+        </mxCell>
+        <mxCell id="qeQ_9sxyChv7fqBwwFQL-56" parent="qeQ_9sxyChv7fqBwwFQL-55" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" value="SIGMA-CORE" vertex="1">
+          <mxGeometry height="129" width="114" as="geometry">
+            <mxRectangle height="129" width="114" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qeQ_9sxyChv7fqBwwFQL-57" parent="qeQ_9sxyChv7fqBwwFQL-55" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" value="Member Server 2" vertex="1">
+          <mxGeometry height="129" width="216" x="114" as="geometry">
+            <mxRectangle height="129" width="216" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qeQ_9sxyChv7fqBwwFQL-58" parent="qeQ_9sxyChv7fqBwwFQL-55" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;align=left;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; IP Address: 192.168.0.252&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Subnet Mask: 255.255.255.0&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Default Gateway: N/A&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Preferred DNS: 192.168.1.254&lt;/div&gt;" vertex="1">
+          <mxGeometry height="129" width="210" x="330" as="geometry">
+            <mxRectangle height="129" width="210" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qeQ_9sxyChv7fqBwwFQL-65" parent="qeQ_9sxyChv7fqBwwFQL-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" vertex="1">
+          <mxGeometry height="129" width="540" y="442" as="geometry" />
+        </mxCell>
+        <mxCell id="qeQ_9sxyChv7fqBwwFQL-66" parent="qeQ_9sxyChv7fqBwwFQL-65" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" value="SIGMA-ITSUPP" vertex="1">
+          <mxGeometry height="129" width="114" as="geometry">
+            <mxRectangle height="129" width="114" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qeQ_9sxyChv7fqBwwFQL-67" parent="qeQ_9sxyChv7fqBwwFQL-65" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" value="IT Help Desk" vertex="1">
+          <mxGeometry height="129" width="216" x="114" as="geometry">
+            <mxRectangle height="129" width="216" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qeQ_9sxyChv7fqBwwFQL-68" parent="qeQ_9sxyChv7fqBwwFQL-65" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;align=left;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; IP Address: 192.168.0.241&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Subnet Mask: 255.255.255.0&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Default Gateway: N/A&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Preferred DNS: 192.168.1.254&lt;/div&gt;" vertex="1">
+          <mxGeometry height="129" width="210" x="330" as="geometry">
+            <mxRectangle height="129" width="210" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qeQ_9sxyChv7fqBwwFQL-69" parent="qeQ_9sxyChv7fqBwwFQL-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" vertex="1">
+          <mxGeometry height="129" width="540" y="571" as="geometry" />
+        </mxCell>
+        <mxCell id="qeQ_9sxyChv7fqBwwFQL-70" parent="qeQ_9sxyChv7fqBwwFQL-69" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" value="SIGMA-USER" vertex="1">
+          <mxGeometry height="129" width="114" as="geometry">
+            <mxRectangle height="129" width="114" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qeQ_9sxyChv7fqBwwFQL-71" parent="qeQ_9sxyChv7fqBwwFQL-69" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" value="CSR/TSR" vertex="1">
+          <mxGeometry height="129" width="216" x="114" as="geometry">
+            <mxRectangle height="129" width="216" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qeQ_9sxyChv7fqBwwFQL-72" parent="qeQ_9sxyChv7fqBwwFQL-69" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;align=left;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; IP Address: 192.168.0.1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Subnet Mask: 255.255.255.0&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Default Gateway: N/A&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Preferred DNS: 192.168.1.254&lt;/div&gt;" vertex="1">
+          <mxGeometry height="129" width="210" x="330" as="geometry">
+            <mxRectangle height="129" width="210" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
