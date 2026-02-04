@@ -1,16 +1,16 @@
 # Windows-Server-Labs
-Hands-on Active Directory labs built in VMware Workstation Pro. Includes domain setup, GPO testing, DNS/DHCP, and replication scenarios.
+Hands-on Active Directory labs built in VMware Workstation Pro. Includes domain setup, GPO testing, DNS/DHCP, and replication scenarios and more.
 
 # Windows Server Labs
 
-This repository documents my hands-on Active Directory labs built in **VMware Workstation Pro**.  
+This repository documents my hands-on Active Directory Domain Services labs built in **VMware Workstation Pro**.  
 Each project simulates real-world enterprise scenarios, from domain setup to Group Policy enforcement and multi-site replication.
 ---
 
 ## 📂 Projects
 
 - **Project 01: Domain Setup**  
-  Configure a Windows Server 2022 Domain Controller, set up DNS, and join member servers.
+  Configure a Windows Server 2022 Domain Controller, configure network settings, and join member servers.
 
 - **Project 02: Group Policy Testing**  
   Create and apply GPOs to enforce security and system policies across lab machines.
@@ -36,7 +36,7 @@ Each project simulates real-world enterprise scenarios, from domain setup to Gro
 ## 📖 About This Repo
 
 This portfolio is designed to showcase **lab-based experience** with enterprise technologies.  
-All configurations are performed in a **fully isolated environment** to simulate production scenarios safely.
+All configurations are performed in a **fully isolated environment** to safely simulate production scenarios.
 
 ---
 
