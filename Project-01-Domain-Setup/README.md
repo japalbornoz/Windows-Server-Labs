@@ -15,7 +15,7 @@ This project documents the setup of a Windows Server 2022 Domain Controller in a
 
 
 
-![Domain Promotion Wizard](./SIGMAVM.png)
+![Domain Promotion Wizard](./5VMs.drawio.png)
 
 
 ## 🗂️ Network Partitioning
