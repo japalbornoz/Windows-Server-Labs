@@ -13,6 +13,8 @@ This project documents the setup of a Windows Server 2022 Domain Controller in a
 ![Domain Promotion Wizard](./5VMs.drawio.png)
 
 ![Domain Promotion Wizard](./NPartitioning.png)
+
+![Domain Promotion Wizard](./VMDiagram.png)
 ---
 
 ## 🔧 Setup Steps
