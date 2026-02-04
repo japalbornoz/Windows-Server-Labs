@@ -42,11 +42,10 @@ D. Virtual Machines SIGMA-IT and SIGMA-USER
 
 ## 📸 Screenshots
 - [x] Server Manager Role Installation
-- [ ] 
 - [x] Domain Promotion Wizard  
 - [x] Successful domain join (SVR1, CORE, ITSUPP, USER)  
 - [x] DNS zone configuration
-
+nw 
 ---
 
 ## 🧠 Lessons Learned
