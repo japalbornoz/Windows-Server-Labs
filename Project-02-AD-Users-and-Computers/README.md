@@ -30,14 +30,16 @@ Domain: `sigmanetwork.local`
 - Tested login from SIGMA-ITSUPP-W11 workstation.
 
 📸 **Lab Infrastructure Preview**:
-- Creating a TSR OU inside Users OU
-  
-- User creation in ADUC
-  <img src="Server%20Manager%20Role%20Installation/installation%20part1.png" width="300">
-- Group membership properties
-- 
-- Successful domain login
-- 
+- Creating a TSR OU inside Manila>Users OU                                                           
+  <img src="User%20Account%20Management/createoutsr.png" width="500">
+- User and Group creation in ADUC                         
+  <img src="User%20Account%20Management/createuser.png" width="500">
+  <img src="User%20Account%20Management/creategroup.png" width="500">
+- Group membership properties                                   
+  <img src="User%20Account%20Management/itgroup.png" width="500">
+  <img src="User%20Account%20Management/csrgroup.png" width="500">
+- Successful domain login                                          
+  <img src="User%20Account%20Management/itsupp.png" width="500">
 
 ---
 
