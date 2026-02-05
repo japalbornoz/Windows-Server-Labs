@@ -30,15 +30,15 @@ Domain: `sigmanetwork.local`
 - Tested login from SIGMA-ITSUPP-W11 workstation.
 
 📸 **Lab Infrastructure Preview**:
-- Creating a TSR OU inside Manila>Users OU                                                           
+- Creating a TSR OU inside Manila>Users OU                                                                  
   <img src="User%20Account%20Management/createoutsr.png" width="500">
-- User and Group creation in ADUC                         
+- User and Group creation in ADUC                            
   <img src="User%20Account%20Management/createuser.png" width="500">
   <img src="User%20Account%20Management/creategroup.png" width="500">
-- Group membership properties                                   
+- Group membership properties                                          
   <img src="User%20Account%20Management/itgroup.png" width="500">
   <img src="User%20Account%20Management/csrgroup.png" width="500">
-- Successful domain login                                          
+- Successful domain login                                                     
   <img src="User%20Account%20Management/itsupp.png" width="500">
 - Assigned a User as an Administrator to the DC
 - 
@@ -53,10 +53,10 @@ Domain: `sigmanetwork.local`
 - Tested login restrictions and group policies applied to computers.
 
 📸 **Lab Infrastructure Preview**:
-- ADUC showing computer objects in Servers or Workstations OUs
+- ADUC showing computer objects in Servers or Workstations OUs                  
   <img src="Computer%20Account%20Management/computerserver.png" width="500">
   <img src="Computer%20Account%20Management/computerserver2.png" width="500">
-- Properties of a domain-joined Server or Workstation 
+- Properties of a domain-joined Server or Workstation                       
   <img src="Computer%20Account%20Management/svr1.png" width="500">
 ---
 
