@@ -40,21 +40,21 @@ Domain: `sigmanetwork.local`
   <img src="User%20Account%20Management/csrgroup.png" width="500">
 - Successful domain login                                          
   <img src="User%20Account%20Management/itsupp.png" width="500">
-
+- Assigned a User to be an Administrator for the DC
+- 
 ---
 
 ## 🖥️ Computer Account Management
 
 ### Tasks Completed
-- Verified domain join for SIGMA-SVR1, SIGMA-CORE, ITSUPPORT, and USER.
 - Moved computer objects into Organizational Units (OUs):
   - `Servers OU`
   - `Workstations OU`
 - Tested login restrictions and group policies applied to computers.
 
-📸 **Screenshots**:
-- ADUC showing computer objects in OUs
-- Properties of a domain-joined workstation
+📸 **Lab Infrastructure Preview**:
+- ADUC showing computer objects in Servers or Workstations OUs
+- Properties of a domain-joined Server or Workstation 
 
 ---
 
