@@ -40,7 +40,7 @@ Domain: `sigmanetwork.local`
   <img src="User%20Account%20Management/csrgroup.png" width="500">
 - Successful domain login                                          
   <img src="User%20Account%20Management/itsupp.png" width="500">
-- Assigned a User to be an Administrator for the DC
+- Assigned a User as an Administrator to the DC
 - 
 ---
 
@@ -54,8 +54,10 @@ Domain: `sigmanetwork.local`
 
 📸 **Lab Infrastructure Preview**:
 - ADUC showing computer objects in Servers or Workstations OUs
+  <img src="Computer%20Account%20Management/computerserver.png" width="500">
+  <img src="Computer%20Account%20Management/computerserver2.png" width="500">
 - Properties of a domain-joined Server or Workstation 
-
+  <img src="Computer%20Account%20Management/svr1.png" width="500">
 ---
 
 ## 📂 File and Folder Permissions
