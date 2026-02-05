@@ -10,7 +10,7 @@ This project demonstrates how to create, manage, and test user and computer acco
 - **Domain Controller**: SIGMA-DC1 (192.168.0.254)
 - **Member Servers**: SIGMA-SVR1, SIGMA-CORE
 - **IT HelpDesk**: SIGMA-ITSUPP
-- **User Workstation**: SIGMA-USER-W11 (Windows 11 Enterprise)
+- **User Workstation**: SIGMA-USER (Windows 11 Enterprise)
 
 Domain: `sigmanetwork.local`
 
@@ -19,25 +19,32 @@ Domain: `sigmanetwork.local`
 ## 🔑 User Account Management
 
 ### Tasks Completed
-- Created test user accounts (e.g., `JapUser`, `HelpDeskUser`, `CSRUser`).
+- Created Main OU (Manila) with Sub-OUs (Computers, Users)
+- Created, e.g., IT, CSR Sub-OUs of Manila>Users OU
+- Created test user accounts (e.g., `jap.albornoz`, `ra.duque`, `delaila.castro`).
 - Configured password policies (complexity, expiration).
 - Assigned users to security groups:
   - **Domain Users** (default)
-  - **IT Support Group**
+  - **IT Group**
   - **CSR Group**
-- Tested login from SIGMA-USER-W11 workstation.
+- Tested login from SIGMA-ITSUPP-W11 workstation.
 
-📸 **Screenshots**:
+📸 **Lab Infrastructure Preview**:
+- Creating a TSR OU inside Users OU
+  
 - User creation in ADUC
+  <img src="Server%20Manager%20Role%20Installation/installation%20part1.png" width="300">
 - Group membership properties
+- 
 - Successful domain login
+- 
 
 ---
 
 ## 🖥️ Computer Account Management
 
 ### Tasks Completed
-- Verified domain join for SIGMA-SVR1, SIGMA-CORE, SIGMA-ITSUPP, and SIGMA-USER-W11.
+- Verified domain join for SIGMA-SVR1, SIGMA-CORE, ITSUPPORT, and USER.
 - Moved computer objects into Organizational Units (OUs):
   - `Servers OU`
   - `Workstations OU`
