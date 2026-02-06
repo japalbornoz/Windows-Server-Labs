@@ -30,7 +30,7 @@ Domain: `sigmanetwork.local`
 - Tested login from SIGMA-ITSUPP-W11 workstation.
 
 📸 **Lab Infrastructure Preview**:
-- Creating a TSR OU inside Manila>Users OU                                                                  
+- Creating a TSR and CSR OUs inside Manila>Users OU                                                                  
   <img src="User%20Account%20Management/createoutsr.png" width="500">
 - User and Group creation in ADUC                            
   <img src="User%20Account%20Management/createuser.png" width="500">
@@ -40,8 +40,13 @@ Domain: `sigmanetwork.local`
   <img src="User%20Account%20Management/csrgroup.png" width="500">
 - Successful domain login                                                     
   <img src="User%20Account%20Management/itsupp.png" width="500">
-- Assigned a User as an Administrator to the DC
+- Configured password policies for Users
 - 
+- Assigned a User/Group (IT-Users) to be part of the DC Administrator
+- 
+- Adding DC's Group (IT-Users) manually to the Local Administrators group on other server (SIGMA‑SVR1, SIGMA‑CORE)
+
+
 ---
 
 ## 🖥️ Computer Account Management
@@ -79,12 +84,18 @@ Domain: `sigmanetwork.local`
 
 ---
 
-## 🧠 Lessons Learned
-
+## 📚 Lessons Learned 
 - Group membership simplifies permission management compared to per-user settings.
 - OU structure helps organize and apply policies to specific sets of users/computers.
 - Testing access with multiple accounts is essential to validate security design.
 - Documenting screenshots provides clear proof of configuration and results.
+
+- Promoting a server to Domain Controller removes its local SAM database; only domain accounts/groups remain.
+- Domain Admins are automatically added to the local Administrators group of member servers/workstations when they join the domain.
+- Local Administrator accounts are machine‑only and cannot log in to other domain machines.
+- Custom groups (like IT‑Users) do not get admin rights automatically; they must be manually added to each server’s local Administrators group or automated via Group Policy.
+- Discovered that broken trust relationships prevent even Domain Admins from logging in, requiring a rejoin or computer account reset in ADUC.
+- Learned the difference between **domain‑wide authority** (Domain Admins) and **machine‑specific authority** (local admins).
 
 ---
 
