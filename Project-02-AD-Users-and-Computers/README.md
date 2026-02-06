@@ -40,10 +40,10 @@ Domain: `sigmanetwork.local`
   <img src="User%20Account%20Management/csrgroup.png" width="500">
 - Successful domain login                                                     
   <img src="User%20Account%20Management/itsupp.png" width="500">
-- Assigned a User/Group (IT-Users) to be part of the DC Administrator
-- 
+- Assigned a User/Group (IT-Users) to be part of the DC Administrator                                                
+  <img src="User%20Account%20Management/ituser1.png" width="300"><img src="User%20Account%20Management/ituser2.png" width="300">
 - Adding DC's Group (IT-Users) manually to the Local Administrators group on other server (SIGMA‑SVR1, SIGMA‑CORE)
-
+  
 ---
 
 ## 🖥️ Computer Account Management
