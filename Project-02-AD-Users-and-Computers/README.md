@@ -42,8 +42,12 @@ Domain: `sigmanetwork.local`
   <img src="User%20Account%20Management/itsupp.png" width="500">
 - Assigned a User/Group (IT-Users) to be part of the DC Administrator                                                
   <img src="User%20Account%20Management/ituser1.png" width="300"><img src="User%20Account%20Management/ituser2.png" width="300">
-- Adding DC's Group (IT-Users) manually to the Local Administrators group on other server (SIGMA‑SVR1, SIGMA‑CORE)
-  
+- Adding DC's Group (IT-Users) manually to the Local Administrators group on other servers (SIGMA‑SVR1, SIGMA‑CORE)                 
+  <img src="User%20Account%20Management/local1.png" width="500">                                                          
+  <img src="User%20Account%20Management/local3.png" width="300"><img src="User%20Account%20Management/local2.png" width="300">
+  <img src="User%20Account%20Management/core1.png" width="500">                                           
+- Verify jap.albornoz user from the IT-Users group can log in to the servers                               
+  <img src="User%20Account%20Management/core2.png" width="500">
 ---
 
 ## 🖥️ Computer Account Management
