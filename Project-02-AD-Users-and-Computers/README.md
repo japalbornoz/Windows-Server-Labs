@@ -46,8 +46,9 @@ Domain: `sigmanetwork.local`
   <img src="User%20Account%20Management/local1.png" width="500">                                                          
   <img src="User%20Account%20Management/local3.png" width="300"><img src="User%20Account%20Management/local2.png" width="300">
   <img src="User%20Account%20Management/core1.png" width="500">                                           
-- Verify jap.albornoz user from the IT-Users group can log in to the servers                               
+- Verify jap.albornoz user from the IT-Users group can log in to the servers                                                
   <img src="User%20Account%20Management/core2.png" width="500">
+  <img src="User%20Account%20Management/svr1.png" width="500">
 ---
 
 ## 🖥️ Computer Account Management
