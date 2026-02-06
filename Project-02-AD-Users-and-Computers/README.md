@@ -40,12 +40,9 @@ Domain: `sigmanetwork.local`
   <img src="User%20Account%20Management/csrgroup.png" width="500">
 - Successful domain login                                                     
   <img src="User%20Account%20Management/itsupp.png" width="500">
-- Configured password policies for Users
-- 
 - Assigned a User/Group (IT-Users) to be part of the DC Administrator
 - 
 - Adding DC's Group (IT-Users) manually to the Local Administrators group on other server (SIGMA‑SVR1, SIGMA‑CORE)
-
 
 ---
 
