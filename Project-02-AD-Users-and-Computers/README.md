@@ -81,9 +81,13 @@ Domain: `sigmanetwork.local`
   - Standard user can only read.
 
 📸 **Screenshots**:
-- Folder security properties
-- Access tests from different accounts
-
+- Folder security properties                                             
+  <img src="File%20and%20Folder%20Permissions/cfolder.png" width="500">
+  <img src="File%20and%20Folder%20Permissions/fsp1.png" width="500">
+  <img src="File%20and%20Folder%20Permissions/fsp2.png" width="500">
+- Access tests from different accounts, example SIGMA-DC1                                
+  <img src="File%20and%20Folder%20Permissions/test1.png" width="500">
+  <img src="File%20and%20Folder%20Permissions/test2.png" width="500">
 ---
 
 ## 📚 Lessons Learned 
