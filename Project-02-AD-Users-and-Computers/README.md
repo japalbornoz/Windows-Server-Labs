@@ -96,12 +96,13 @@ Domain: `sigmanetwork.local`
 - Testing access with multiple accounts is essential to validate security design.
 - Documenting screenshots provides clear proof of configuration and results.
 
-- Promoting a server to Domain Controller removes its local SAM database; only domain accounts/groups remain.
-- Domain Admins are automatically added to the local Administrators group of member servers/workstations when they join the domain.
+- Promoting a server to Domain Controller removes local SAM accounts; only domain accounts/groups remain.
+- Domain Admins are automatically added to local Administrators on member servers.
 - Local Administrator accounts are machine‑only and cannot log in to other domain machines.
-- Custom groups (like IT‑Users) do not get admin rights automatically; they must be manually added to each server’s local Administrators group or automated via Group Policy.
+- Custom groups (like IT‑Users) must be manually delegated or automated via GPO.
 - Discovered that broken trust relationships prevent even Domain Admins from logging in, requiring a rejoin or computer account reset in ADUC.
 - Learned the difference between **domain‑wide authority** (Domain Admins) and **machine‑specific authority** (local admins).
+- Testing with different accounts validates that permissions match intended access
 
 ---
 
