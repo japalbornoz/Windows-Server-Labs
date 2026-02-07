@@ -50,7 +50,9 @@ The following screenshots demonstrate the configuration steps and verification o
   <img src="drive%20z/driveprop2.png" width="700">
   <img src="drive%20z/validatedrive.png" width="700">
 - Logon banner displayed at user login
-  
+  <img src="logonbanner/logonbanner.png" width="700">
+  <img src="logonbanner/policybanner.png" width="700">
+  <img src="logonbanner/testbanner.png" width="700">
 ---
 
 ## 🎯 Lessons Learned
