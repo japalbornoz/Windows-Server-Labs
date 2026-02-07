@@ -30,6 +30,7 @@
 <!-- 
 TODO: these are reserved and later can be input
 - ### adding a 4. Folder Redirection using Group Policy 
+-  Group Policy Management Console (GPMC)
 -->
 
 ---
@@ -37,8 +38,11 @@ TODO: these are reserved and later can be input
 ## 📸 GPO Implementation & Validation
 The following screenshots demonstrate the configuration steps and verification of applied Group Policy Objects in an Active Directory domain environment.                        
 - GPMC showing **Default Domain Policy** and custom GPOs
-- Password Policy settings in **Security Options**
+- 
+- Configured Password Policies (Domain-wide)
+- 
 - Drive **Z:** mapped automatically for IT-Users
+- 
 - Logon banner displayed at user login
 
 ---
