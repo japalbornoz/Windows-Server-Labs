@@ -60,5 +60,5 @@ The following screenshots demonstrate the configuration steps and verification o
 - **Default Domain Policy** should be used for domain-wide security baselines
 - **Group Policy Preferences** automate common tasks (drive mapping, printers, shortcuts)
 - Testing with different user accounts validates correct policy application
-- GPOs enable **enterprise-scale automation** — consistent, repeatable, and efficient
+- GPOs enable **enterprise-scale automation** consistent, repeatable, and efficient
 
