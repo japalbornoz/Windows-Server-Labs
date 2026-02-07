@@ -80,7 +80,7 @@ Domain: `sigmanetwork.local`
   - CSR user can create/edit files.
   - Standard user can only read.
 
-📸 **Screenshots**:
+📸 **GPO Implementation & Validation**:
 - Folder security properties                                             
   <img src="File%20and%20Folder%20Permissions/cfolder.png" width="500">
   <img src="File%20and%20Folder%20Permissions/fsp1.png" width="500">
