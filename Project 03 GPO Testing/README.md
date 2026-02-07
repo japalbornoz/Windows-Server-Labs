@@ -27,6 +27,11 @@
 - Added a compliance/welcome banner for all domain users
 - Tested by logging in on **SIGMA-USER-W11** → banner displayed before desktop
 
+<!-- 
+TODO: these are reserved and later can be input
+- ### adding a 4. Folder Redirection using Group Policy 
+-->
+
 ---
 
 ## 📸 GPO Implementation & Validation
