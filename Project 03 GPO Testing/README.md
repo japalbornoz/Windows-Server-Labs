@@ -1,7 +1,6 @@
 # Project 03: Group Policy Testing
-
 *Applying and validating Group Policy Objects (GPOs) for security and configuration.*
-
+> Showcases enterprise-level automation with Group Policy, including password policies, drive mappings, and compliance settings.
 ---
 
 ## 🛠️ Tasks Completed
@@ -30,7 +29,8 @@
 
 ---
 
-## 📸 Screenshots
+## 📸 GPO Implementation & Validation
+The following screenshots demonstrate the configuration steps and verification of applied Group Policy Objects in an Active Directory domain environment.                        
 - GPMC showing **Default Domain Policy** and custom GPOs
 - Password Policy settings in **Security Options**
 - Drive **Z:** mapped automatically for IT-Users
