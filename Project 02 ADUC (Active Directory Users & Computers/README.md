@@ -32,20 +32,26 @@ Domain: `sigmanetwork.local`
 📸 **Lab Infrastructure Preview**:
 - Creating a TSR and CSR OUs inside Manila>Users OU                                                                  
   <img src="User%20Account%20Management/createoutsr.png" width="500">
+  
 - User and Group creation in ADUC                            
   <img src="User%20Account%20Management/createuser.png" width="500">
   <img src="User%20Account%20Management/creategroup.png" width="500">
+  
 - Group membership properties                                          
   <img src="User%20Account%20Management/itgroup.png" width="500">
   <img src="User%20Account%20Management/csrgroup.png" width="500">
+  
 - Successful domain login                                                     
   <img src="User%20Account%20Management/itsupp.png" width="500">
+  
 - Assigned a User/Group (IT-Users) to be part of the DC Administrator                                                
   <img src="User%20Account%20Management/ituser1.png" width="300"><img src="User%20Account%20Management/ituser2.png" width="300">
+  
 - Adding DC's Group (IT-Users) manually to the Local Administrators group on other servers (SIGMA‑SVR1, SIGMA‑CORE)                 
   <img src="User%20Account%20Management/local1.png" width="500">                                                          
   <img src="User%20Account%20Management/local3.png" width="300"><img src="User%20Account%20Management/local2.png" width="300">
-  <img src="User%20Account%20Management/core1.png" width="500">                                           
+  <img src="User%20Account%20Management/core1.png" width="500">
+                                       
 - Verify `jap.albornoz` user from the IT-Users group can log in to the servers                                                
   <img src="User%20Account%20Management/core2.png" width="500">
   <img src="User%20Account%20Management/svr1.png" width="500">
