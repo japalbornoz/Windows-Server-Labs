@@ -39,9 +39,11 @@ TODO: these are reserved and later can be input
 The following screenshots demonstrate the configuration steps and verification of applied Group Policy Objects in an Active Directory domain environment.                        
 - GPMC showing **Default Domain Policy** and custom GPOs          
   <img src="gpmc/gpmc.png" width="700">
+  
 - Configured Password and Account Lockout Policies
   <img src="gpmc/policy1.png" width="700">
   <img src="gpmc/policy2.png" width="700">
+  
 - Drive **Z:** mapped automatically for IT-Users group                                
   <img src="drive%20z/creategpo1.png" width="700">
   <img src="drive%20z/creategpo2.png" width="700">
@@ -49,6 +51,7 @@ The following screenshots demonstrate the configuration steps and verification o
   <img src="drive%20z/driveprop1.png" width="700">
   <img src="drive%20z/driveprop2.png" width="700">
   <img src="drive%20z/validatedrive.png" width="700">
+  
 - Logon banner displayed at user login
   <img src="logonbanner/logonbanner.png" width="700">
   <img src="logonbanner/policybanner.png" width="700">
