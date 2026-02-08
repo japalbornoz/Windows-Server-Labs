@@ -12,7 +12,7 @@ Each project simulates real-world enterprise scenarios, from domain setup to Gro
 - **Project 01: Domain Setup**  
   Configure a Windows Server 2022 Domain Controller, configure network settings, and join member servers.
 
-- **Project 02: Active Directory Users and Computers**
+- **Project 02: Active Directory Users and Computers**                    
   Create User and Computer Organizational Units (OU), create users, computers, and groups, and assign permission levels.
 
 - **Project 03: Group Policy Testing**  
