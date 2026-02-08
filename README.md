@@ -12,15 +12,19 @@ Each project simulates real-world enterprise scenarios, from domain setup to Gro
 - **Project 01: Domain Setup**  
   Configure a Windows Server 2022 Domain Controller, configure network settings, and join member servers.
 
-- **Project 02: Group Policy Testing**  
+- **Project 02: Active Directory Users and Computers**
+  Create User and Computer Organizational Units (OU), create users, computers, and groups, and assign permission levels.
+
+- **Project 03: Group Policy Testing**  
   Create and apply GPOs to enforce security and system policies across lab machines.
 
-- **Project 03: DNS & DHCP Configuration**  
-  Deploy DNS zones and DHCP scopes to simulate enterprise-grade name resolution and IP management.
-
-- **Project 04: AD Sites & Replication**  
+- **Project 04: DNS & DHCP Configuration**
+- Deploy DNS zones and DHCP scopes to simulate enterprise-grade name resolution and IP management.
+  
+  
+- **Project 05: AD Sites & Replication**  
   Build a multi-subnet environment to test replication, site links, and latency scenarios.
-
+  
 ---
 
 ## 🛠️ Skills Demonstrated
