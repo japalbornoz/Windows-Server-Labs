@@ -18,7 +18,7 @@ This project documents the setup of a Windows Server 2022 Domain Controller in a
 ![Domain Promotion Wizard](./VMDiagram.png)
 ---
 
-## 🔧 Setup Steps
+## Setup Steps
 
 A. VMWare Workstation Pro: Set up the five Virtual Machines
 -  Installed Windows Server 2022 on SIGMA-DC1, SIGMA-SVR1, SIGMA-CORE
@@ -41,7 +41,7 @@ D. Virtual Machines SIGMA-IT and SIGMA-USER
 
 ---
 
-## 📸 Environment Topology
+## Environment Topology
 - [x] **Server Manager Role Installation**                                    
       <img src="Server%20Manager%20Role%20Installation/installation%20part1.png" width="600">                                                        
       <img src="Server%20Manager%20Role%20Installation/installation%20part2.png" width="600">                                                       
