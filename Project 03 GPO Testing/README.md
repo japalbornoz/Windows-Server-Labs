@@ -22,7 +22,7 @@
 - Applied to **IT-Users** and **CSR** groups
 - Verified by logging in as **jap.albornoz** → drive mapped automatically
 
-### 3. Logon Banner
+### 3. Logon Banner                               
 - Configured **Interactive Logon Message** via GPO
 - Added a compliance/welcome banner for all domain users
 - Tested by logging in on **SIGMA-USER-W11** → banner displayed before desktop
