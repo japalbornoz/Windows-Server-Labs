@@ -52,13 +52,13 @@ The following screenshots demonstrate the configuration steps and verification o
   <img src="drive%20z/driveprop2.png" width="700">
   <img src="drive%20z/validatedrive.png" width="700">
   
-- Logon banner displayed at user login
+- Logon banner displayed at user login                                                                 
   <img src="logonbanner/logonbanner.png" width="700">
   <img src="logonbanner/policybanner.png" width="700">
   <img src="logonbanner/testbanner.png" width="700">
 ---
 
-## Lessons Learned
+## Lessons Learned            
 - GPOs apply at the **OU level**, so OU design directly impacts policy targeting
 - **Default Domain Policy** should be used for domain-wide security baselines
 - **Group Policy Preferences** automate common tasks (drive mapping, printers, shortcuts)
