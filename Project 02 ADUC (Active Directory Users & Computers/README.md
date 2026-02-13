@@ -65,7 +65,7 @@ Domain: `sigmanetwork.local`
   - `Workstations OU`
 - Tested login restrictions and group policies applied to computers.
 
-📸 **Lab Infrastructure Preview**:
+**Lab Infrastructure Preview**:
 - ADUC showing computer objects in Servers or Workstations OUs                  
   <img src="Computer%20Account%20Management/computerserver.png" width="500">
   <img src="Computer%20Account%20Management/computerserver2.png" width="500">
