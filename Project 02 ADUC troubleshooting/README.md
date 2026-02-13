@@ -1,6 +1,6 @@
-📂 Project 02.5 – ADUC Troubleshooting
+Project 02.5 – ADUC Troubleshooting
 
-🛠️ Tasks Covered
+Tasks Covered
 - User Password Resetting
 - Practiced resetting passwords for locked‑out users in ADUC.
 - Verified login with new credentials.
@@ -17,13 +17,13 @@
 - Moved computer objects between OUs and observed changes in applied Group Policies.
 - Learned that OU placement isn’t cosmetic — it directly affects security and configuration.
 
-📸 Screenshots
+Topology Environment
 - ADUC showing password reset dialog.
 - NTFS Advanced Security Settings (inheritance disabled).
 - Trust relationship error message and resolution steps.
 - OU structure before/after moving computer objects.
 
-🎯 Lessons Learned
+Lessons Learned
 - Password resets are a core ADUC task and must be documented for audit/security.
 - NTFS inheritance can block direct edits; disabling inheritance is required for cleanup.
 - Trust relationships are critical — broken secure channels prevent even Domain Admins from logging in.
