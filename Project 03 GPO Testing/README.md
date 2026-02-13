@@ -3,7 +3,7 @@
 > Showcases enterprise-level automation with Group Policy, including password policies, drive mappings, and compliance settings.
 ---
 
-## 🛠️ Tasks Completed
+## Tasks Completed
 
 ### 1. Configured Password Policies (Domain-wide)
 - Edited **Default Domain Policy** in GPMC
@@ -35,7 +35,7 @@ TODO: these are reserved and later can be input
 
 ---
 
-## 📸 GPO Implementation & Validation
+## GPO Implementation & Validation
 The following screenshots demonstrate the configuration steps and verification of applied Group Policy Objects in an Active Directory domain environment.                        
 - GPMC showing **Default Domain Policy** and custom GPOs          
   <img src="gpmc/gpmc.png" width="700">
@@ -58,7 +58,7 @@ The following screenshots demonstrate the configuration steps and verification o
   <img src="logonbanner/testbanner.png" width="700">
 ---
 
-## 🎯 Lessons Learned
+## Lessons Learned
 - GPOs apply at the **OU level**, so OU design directly impacts policy targeting
 - **Default Domain Policy** should be used for domain-wide security baselines
 - **Group Policy Preferences** automate common tasks (drive mapping, printers, shortcuts)
