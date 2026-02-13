@@ -5,7 +5,7 @@ This project documents the setup of a Windows Server 2022 Domain Controller in a
 
 ---
 
-## 🧱 Lab Architecture
+## Lab Architecture
 
 - **Virtualization Platform**: VMware Workstation Pro
 - **Operating Systems**: Windows Server 2022, Windows 11 Enterprise 
@@ -62,7 +62,7 @@ D. Virtual Machines SIGMA-IT and SIGMA-USER
  
 ---
 
-## 🧠 Lessons Learned
+## Lessons Learned
 
 - DNS must point to the DC during domain join  
 - Manual IP setup avoids DHCP conflicts  
@@ -71,7 +71,7 @@ D. Virtual Machines SIGMA-IT and SIGMA-USER
   
 ---
 
-## 🚀 Next Steps
+## Next Steps
 
 - Create and apply Group Policy Objects by role  
 - Add DNS forwarders and test external name resolution  
