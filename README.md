@@ -7,7 +7,7 @@ This repository documents my hands-on Active Directory Domain Services labs buil
 Each project simulates real-world enterprise scenarios, from domain setup to Group Policy enforcement and multi-site replication.
 ---
 
-## 📂 Projects
+## Projects
 
 - **Project 01: Domain Setup**  
   Configure a Windows Server 2022 Domain Controller, configure network settings, and join member servers.
@@ -27,7 +27,7 @@ Each project simulates real-world enterprise scenarios, from domain setup to Gro
   
 ---
 
-## 🛠️ Skills Demonstrated
+## Skills Demonstrated
 
 - Active Directory Domain Services (AD DS)  
 - Group Policy Management (GPOs)  
@@ -37,14 +37,14 @@ Each project simulates real-world enterprise scenarios, from domain setup to Gro
 
 ---
 
-## 📖 About This Repo
+## About This Repo
 
 This portfolio is designed to showcase **lab-based experience** with enterprise technologies.  
 All configurations are performed in a **fully isolated environment** to safely simulate production scenarios.
 
 ---
 
-## 🚀 Next Steps
+## Next Steps
 
 Future projects will expand into:
 - PowerShell automation for AD tasks  
