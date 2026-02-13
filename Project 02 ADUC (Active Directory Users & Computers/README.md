@@ -5,7 +5,7 @@ This project demonstrates how to create, manage, and test user and computer acco
 
 ---
 
-## 🧱 Lab Architecture
+## Lab Architecture
 
 - **Domain Controller**: SIGMA-DC1 (192.168.0.254)
 - **Member Servers**: SIGMA-SVR1, SIGMA-CORE
@@ -16,7 +16,7 @@ Domain: `sigmanetwork.local`
 
 ---
 
-## 🔑 User Account Management
+## User Account Management
 
 ### Tasks Completed
 - Created Main OU (Manila) with Sub-OUs (Computers, Users)
@@ -29,7 +29,7 @@ Domain: `sigmanetwork.local`
   - **CSR Group**
 - Tested login from SIGMA-ITSUPP-W11 workstation.
 
-📸 **Lab Infrastructure Preview**:
+**Lab Infrastructure Preview**:
 - Creating a TSR and CSR OUs inside Manila>Users OU                                                                  
   <img src="User%20Account%20Management/createoutsr.png" width="500">
   
@@ -57,7 +57,7 @@ Domain: `sigmanetwork.local`
   <img src="User%20Account%20Management/svr1.png" width="500">
 ---
 
-## 🖥️ Computer Account Management
+## Computer Account Management
 
 ### Tasks Completed
 - Moved computer objects into Organizational Units (OUs):
@@ -73,7 +73,7 @@ Domain: `sigmanetwork.local`
   <img src="Computer%20Account%20Management/svr1.png" width="500">
 ---
 
-## 📂 File and Folder Permissions
+## File and Folder Permissions
 
 ### Tasks Completed
 - Created shared folder on SIGMA-SVR1.
@@ -86,7 +86,7 @@ Domain: `sigmanetwork.local`
   - CSR user can create/edit files.
   - Standard user can only read.
 
-📸 **GPO Implementation & Validation**:
+ **GPO Implementation & Validation**:
 - Folder security properties                                             
   <img src="File%20and%20Folder%20Permissions/cfolder.png" width="500">
   <img src="File%20and%20Folder%20Permissions/fsp1.png" width="500">
@@ -96,7 +96,7 @@ Domain: `sigmanetwork.local`
   <img src="File%20and%20Folder%20Permissions/test2.png" width="500">
 ---
 
-## 📚 Lessons Learned 
+## Lessons Learned 
 - Group membership simplifies permission management compared to per-user settings.
 - OU structure helps organize and apply policies to specific sets of users/computers.
 - Testing access with multiple accounts is essential to validate security design.
@@ -112,7 +112,7 @@ Domain: `sigmanetwork.local`
 
 ---
 
-## 🚀 Next Steps
+## Next Steps
 
 - Expand OU structure with role-based design (e.g., `Finance`, `HR`).
 - Apply Group Policy Objects (GPOs) for password policies and desktop restrictions.
